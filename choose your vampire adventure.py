@@ -1,4 +1,5 @@
-
+answer = ""
+while answer != "VICTORY":
 answer = input("Would you like to play? (yes/no)")
 
 if answer == "yes":
@@ -57,6 +58,7 @@ if answer == "yes":
 
                     print("He lunges for you, but you raise the shield and knock him back! He trips backwards down the stairs and falls. This old house has done him no favors as he falls and impales himself directly on the ornate decorations protruding from the banister.")
                     print("You've done it! The Vampire is dead! VICTORY!")
+                    break
 
                 if answer == "run":
 
